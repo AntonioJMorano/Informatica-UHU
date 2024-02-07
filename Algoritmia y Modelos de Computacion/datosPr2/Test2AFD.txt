@@ -1,0 +1,15 @@
+#Automata Finito Determinista Test 2
+ESTADOS: A B C
+INICIAL: A
+FINALES: A C
+TRANSICIONES:
+	A '0' A
+	A '1' B
+	A '2' C
+	B '0' B
+	B '1' C
+	B '2' A
+	C '0' A
+	C '1' B
+ 	C '2' C
+FIN
